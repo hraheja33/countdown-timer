@@ -27,7 +27,7 @@ const deadline = document.querySelector('.deadline');
 const items = document.querySelectorAll('.deadline-format h4');
 console.log(items);
 
-let futureDate = new Date(2022,0,24,11,30, 00);
+let futureDate = new Date(2022,4,24,11,30, 00);
 const year = futureDate.getFullYear();
 const hours = futureDate.getHours();
 const minutes = futureDate.getMinutes();
